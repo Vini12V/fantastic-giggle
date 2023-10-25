@@ -1,0 +1,144 @@
+{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    border:2px solid rgb(231, 139, 162);
+}
+#topbar
+{
+    background-color:rgb(219, 219, 219);
+    border:2px solid rgb(231, 139, 162);
+    width:auto;
+    height:50px;
+}
+#topbar h1{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    margin-top:auto;
+    
+}
+#container
+{
+    position:relative;
+    width:100%;
+    height:95vh;
+    background-color: #e0d1d1;
+}
+#header
+{
+    height:60px;
+    background-color: #fd6391;
+    border:2px solid rgb(238, 89, 126);
+}
+#header img
+{
+  height:60px;  
+}
+#header ul
+{
+    float:right;
+    margin-top:30px;
+}
+#header ul li
+{
+    display: inline-block;
+    margin-right:25px;  
+}
+#header ul li a
+{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-weight:bold;
+}
+#header ul li a:hover
+{
+    color:rgb(43, 93, 255);
+}
+#details
+{
+    margin-left:3%;
+    margin-top:10%;
+}
+#details h2
+{
+    position:sticky;
+    font-size:20px;
+    color:#212121;
+    margin-top:40px;
+}
+
+#details p
+{
+    color: #555;
+    line-height:15px;
+}
+#details a
+{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    display:inline-block;
+    margin:30px 0;
+    border-radius:5px;
+}
+#details a:hover
+{
+    color:aqua;
+}
+#images
+{
+    width:45%;
+    height:50%;
+    position:absolute;
+    bottom: 180px;
+    right:100px;
+}
+#images img
+{
+    height:80%;
+    position:relative;
+    left:60%;
+    top:-10%;
+    margin:50px;
+    transform: translateX(-40%);
+    transition:bottom 1s,left 1s;
+    border:6px solid rgb(65, 61, 62);
+}
+#images:hover.girl
+{
+    left:45%;
+}
+#images h1
+{
+    position: absolute;
+    color:rgb(109, 107, 107);
+    right:80px;
+    bottom: -10%;
+    text-align:auto;
+    font-size:20px;
+    
+
+}
+#home-sci a
+{
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:40px;
+    height:40px;
+    background:#1a1919;
+    border: 2px solid rgb(6, 222, 238);
+    border-radius: 30%;
+    text-decoration: none;
+    margin:20px 25px 20px 20px;
+    line: height 10px;
+}
+#home-sci a:hover
+{
+    background: #0ef;
+    color:#2b91c4;
+}
